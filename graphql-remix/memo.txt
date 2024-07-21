@@ -1,0 +1,42 @@
+-----
+
+●Qiita
+https://qiita.com/kim_t0814/items/c6ef7e3c668007f920a6
+
+https://qiita.com/fsdg-takada/items/5a24382bc73c5bd85c2d
+
+●graphql
+https://www.prisma.io/graphql#graphql-tabs
+
+●Prismaの基本操作
+
+https://qiita.com/Erytheia/items/f134f210789842340066
+
+https://zenn.dev/smish0000/articles/f1a6f463417b65
+
+Prismaの初期化実装
+npx prisma init
+
+※以下のように設定すればsqliteで定義できる
+npx prisma init --datasource-provider sqlite
+
+Prisma Client作成
+npx prisma generate
+
+マイグレーション実行
+データベーステーブルを作成
+npx prisma migrate dev --name init
+
+起動する
+npx prisma studio
+
+●ReactフレームワークのRemixでTODOアプリ作成（shadcn/ui, Prisma使用）
+https://qiita.com/fsdg-takada/items/5a24382bc73c5bd85c2d
+
+実行する際は以下で確認
+node prisma/script.js 
+
+-----
+
+Prisma graphql
+https://www.prisma.io/graphql#graphql-tabs
